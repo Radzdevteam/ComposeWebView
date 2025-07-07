@@ -1,0 +1,20 @@
+! EasyPrivacy
+! Blocks tracking scripts and information collectors
+
+! Google Analytics
+||google-analytics.com^
+||googletagmanager.com^
+||googleadservices.com^
+
+! Facebook tracking
+||facebook.com/tr^
+||connect.facebook.net^
+
+! Twitter tracking
+||analytics.twitter.com^
+
+! Generic tracking
+||doubleclick.net^
+||scorecardresearch.com^
+
+! Note: Sample EasyPrivacy tracking filters.
