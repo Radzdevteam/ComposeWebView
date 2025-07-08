@@ -1,7 +1,6 @@
-````markdown
 # 📱 ComposeWebView
 
-A lightweight and customizable **Android WebView** built with Jetpack Compose — with advanced features like popup/ad blocking, fullscreen video handling, and simple integration.
+A lightweight and customizable **Android WebView** built with Jetpack Compose — featuring popup/ad blocking, fullscreen video handling, and easy integration.
 
 [![](https://jitpack.io/v/Radzdevteam/ComposeWebView.svg)](https://jitpack.io/#Radzdevteam/ComposeWebView)
 
@@ -20,9 +19,9 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
-````
+```
 
-Then add the library in your **module-level** `build.gradle` or `build.gradle.kts`:
+Then add the library to your **module-level** `build.gradle` or `build.gradle.kts`:
 
 ```kotlin
 dependencies {
@@ -30,13 +29,13 @@ dependencies {
 }
 ```
 
-> 🔁 Replace `Tag` with the latest version: [JitPack Releases](https://jitpack.io/#Radzdevteam/ComposeWebView)
+> 🔁 Replace `Tag` with the latest release version: [View on JitPack](https://jitpack.io/#Radzdevteam/ComposeWebView)
 
 ---
 
 ## 🚀 Usage Example
 
-To launch the WebView directly from your `MainActivity`:
+To launch the WebView from your `MainActivity`:
 
 ```kotlin
 class MainActivity : ComponentActivity() {
@@ -47,6 +46,7 @@ class MainActivity : ComponentActivity() {
         // Launch ComposeWebViewActivity with a URL
         val intent = Intent(this, ComposeWebViewActivity::class.java)
         intent.putExtra("url", "https://bigwarp.io/embed-dehf07n6v4eo.html")
+        // Optional alternative URL:
         // intent.putExtra("url", "https://vide0.net/e/xlerkprs9quw")
         startActivity(intent)
         finish()
@@ -58,30 +58,29 @@ class MainActivity : ComponentActivity() {
 
 ## ✨ Features
 
-* ✅ Jetpack Compose-based WebView UI
-* 🔒 Ad & popup blocking (optional integration)
-* 🎥 Fullscreen video support
-* 🧠 Smart handling of `intent:` links
-* ⚡ Fast and lightweight
+- ✅ Jetpack Compose-based WebView UI
+- 🔒 Ad & popup blocking
+- 🎥 Fullscreen video support
+- 🧠 Smart handling of `intent:` links
+- ⚡ Fast, clean, and lightweight
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
-See [`LICENSE`](LICENSE) for details.
+Licensed under the MIT License.  
+See [`LICENSE`](LICENSE) for more details.
 
 ---
 
 ## 🙌 Contributions
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change or add.
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you'd like to improve or add.
 
 ---
 
 ## 🔗 Author
 
-Made with ❤️ by [Radzdevteam](https://github.com/Radzdevteam)
-Contact: `radz.assistance@gmail.com`
-
-```
+Made with ❤️ by [Radzdevteam](https://github.com/Radzdevteam)  
+📧 Contact: `radz.assistance@gmail.com`
